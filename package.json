@@ -1,0 +1,12 @@
+{
+  "name": "coderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "romisass": "sass --watch style.scss style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

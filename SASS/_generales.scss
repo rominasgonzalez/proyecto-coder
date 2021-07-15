@@ -1,0 +1,24 @@
+/* generales */
+html { /* etiqueta raíz */
+    font-size: 82.5%;
+ }
+ 
+ *{
+     margin:0px;
+     padding: 0px;
+ }
+ 
+ body{
+     font-family: 'Mate SC', serif;
+ }
+
+ $color: negro; /* Mi constante */
+      p {
+            @if $color == negro {
+                   color: black;
+            } @else if $color == blanco {
+                       color: white;
+           } @else if $color == rosa {
+                      color: pink;
+                  }
+              }

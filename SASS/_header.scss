@@ -1,0 +1,29 @@
+/* header */
+$cool-black: #000;
+$padding-size: 40px;
+
+
+@mixin header{
+    display: flex;
+	padding-top: 10px;
+	margin: auto;
+	background-color: #000;
+	box-shadow: whitesmoke 1px 1px 5px #000;
+}
+header{
+	@include header;
+	}
+
+header .logotipo {
+	direction: inherit;
+	font-family: 'Open Sans', cursive;
+	font-weight: normal;
+	color: var(--fondo);
+	font-size: 40px;
+}
+
+.header.nav a {
+    color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
