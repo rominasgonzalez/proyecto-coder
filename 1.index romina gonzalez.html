@@ -10,12 +10,14 @@
     <meta 
     name="keywords" 
     content="moda,estilo,remera,saturn,saturno">
-<meta name="robots" content="index,follow">>
+<meta name="robots" content="index,follow">
 
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -23,26 +25,23 @@
     <title>Saturn</title>
   </head>
   <body>
-    <header>
-      <div class="contenedor">
-              <h1 class="logotipo">Saturn</h1>
-        <img src="./imagenes/saturn.svg" alt="saturn"
-        width="40"
-        height="40"/>
-              <nav>
-                  <a href="1.index romina gonzalez.html" class="activo">Home</a>
-                  <a href="3.Nosotros.html">Nosotros</a>
-                  <a href="4.mi cuenta.html">Mi cuenta</a>
-                  <a href="5.productos.html">Productos</a>
-                  <a href="6.contacto.html">Contacto</a>
-              </nav>
-        <div class="cart"><img src="./imagenes/shopping-cart.svg" alt="carrito"
-          width="30"
-          height="30"
-          />
-        </div>
-          </div>
-      </header>
+    <body>
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Saturn</label>
+        <img src="./imagenes/saturn.svg" alt="saturn" width="100" height="30">
+        <ul>
+          <li><a class="active" href="2.home.html">Home</a></li>
+          <li><a href="3.Nosotros.html">Nosotros</a></li>
+          <li><a href="4.mi cuenta.html">Mi cuenta</a></li>
+          <li><a href="5.productos.html">Productos</a></li>
+          <li><a href="6.contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      
 
 
     <section class="container">
@@ -213,7 +212,7 @@
             <h4 class="text-center">Contac Us</h4>
             <div class="footer-info d-flex justify-content-center">
               <ul>
-                <li>Telefono oficial:<br><a href="" target="_blank">+0800 111 111</a>
+                <li>Telefono oficial:<br><a href="" target="_blank">0800 111 111</a>
                 </li>
                 <li>Email: <br> contact@saturn.com</li>
                 <li>Horario de atencion <br> L - V 9am at 6pm</li>
