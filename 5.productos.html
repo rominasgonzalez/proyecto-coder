@@ -16,169 +16,288 @@
     <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagenes/saturn (2).png">
   
     <title>Productos</title>
 </head>
 <body>
-    <header>
-      <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
-        </label>
-        <label class="logo">Saturn</label>
-        <img src="./imagenes/saturn.svg" alt="saturn" width="100" height="30">
-        <ul>
-          <li><a class="active" href="2.home.html">Home</a></li>
-          <li><a href="3.Nosotros.html">Nosotros</a></li>
-          <li><a href="4.mi cuenta.html">Mi cuenta</a></li>
-          <li><a href="5.productos.html">Productos</a></li>
-          <li><a href="6.contacto.html">Contacto</a></li>
-        </ul>
+  <header>
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/saturn.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Saturn
+          </a>
+          <button class="navbar-toggler" type="button"
+           data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="2.home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="3.Nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="4.mi cuenta.html">Mi Cuenta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="5.productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="6.contacto.html">Contacto</a>
+              </li>
+              
+                
+            </ul>
+           
+          </div>
+        </div>
       </nav>
-        </header>
-  <main>
+ </section>
+</header>
+
    
-  <!---TITULO PRESALES GAMES-->
-  <div class="section-title">
-    <h2 class="section-title__text text-center">PRESALES</h2>
-  </div>
- <!--------------PRESALE PRODUCT---------------->
- <div class="presale-carousel-products">
-  <div class="container-fluid d-flex justify-content-center">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-6">
-      <div class="col mb-3">
-        <div class="card">
-          <div class="img-card">
-            <img class="card-img-top" src="./imagenes/pexels-photo-6311561.jpeg" alt="Card image cap" width="400" height="250">
+        <section class = "product-section">
+          <div class = "product-bg">
+      
           </div>
-          <div class="card-body text-center">
-            <h6 class="card-title">ZAPATILLAS 077</h6>
-            <p class="card-text">Price: $100</p>
-            <a href="#" class="btn btn-danger">Reserve now!</a>
+         <!------------------ CLOTHES PRODUCT FILTER -------------------------------->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="filter-list">
+            <h3>CATEGORIAS</h3>
+          </div>
+          <div class="clothes-filter">
+           <button  class="btn btn-default filter-button active" data-filter="all">Todos los productos</button> 
+            <button  class="btn btn-default filter-button" data-filter="presales">Preventa</button>
           </div>
         </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="img-card">
-            <img class="card-img-top" src="./imagenes/team-fredi-bOIDJPmQo7g-unsplash.jpg" alt="Card image cap"width="400" height="250" >
-          </div>
-          <div class="card-body text-center">
-            <h6 class="card-title">FREDI</h6>
-            <p class="card-text">Price: $100</p>
-            <a href="#" class="btn btn-danger">Reserve now!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="img-card">
-            <img class="card-img-top" src="./imagenes/pexels-uriel-mont-6280922.jpg" alt="Card image cap" width="400" height="250">
-          </div>
-          <div class="card-body text-center">
-            <h6 class="card-title">SWEATER</h6>
-            <p class="card-text">Price: $100</p>
-            <a href="#" class="btn btn-danger">Reserve now!</a>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-3">
-        <div class="card">
-          <div class="img-card">
-            <img class="card-img-top" src="./imagenes/pexels-keira-burton-6084332.jpg" alt="Card image cap"  width="400" height="250">
-          </div>
-          <div class="card-body text-center">
-            <h6 class="card-title">SHIELD</h6>
-            <p class="card-text">Price: $100</p>
-            <a href="#" class="btn btn-danger">Reserve now!</a>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-     <!---------------------FOOTER----------------------->
-  <footer>
-    <div class="container-fluid d-flex justify-content-around">
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-5">
-        <div class="footer-subsection col mb-3">
-          <div class="footer-title">
-            <h4 class="text-center">Metodos de Pago</h4>
-            <div class="footer-info d-flex justify-content-center">
-              <div class="creditcards">
-                <img src="./imagenes/img-footer/creditcards.png" alt="creditcards">
+    
+        <div class="clothes-cards">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-6 ">
+            <!---- CLOTHES PRESALES ---->
+            <div class="col mb-3 product filter presales">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/ropa-1.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">CAMPERA 777</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Reservar!</a>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="footer-subsection col mb-3">
-          <div class="footer-title">
-            <h4 class="text-center">Client Service </h4>
-            <div class="footer-info d-flex justify-content-center">
-              <ul>
-                <li>Garantias</li>
-                <li>Terminos y condiciones</li>
-                <li>Privacidad</li>
-                <li>Politicas de cambio</li>
-              </ul>
+            <div class="col mb-3 product filter presales">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/ropa-2.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">SWEATER</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Reservar!</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="footer-subsection col mb-3">
-          <div class="footer-title">
-            <h4 class="text-center">Contac Us</h4>
-            <div class="footer-info d-flex justify-content-center">
-              <ul>
-                <li>Telefono oficial:<br><a href="" target="_blank">+0800 111 111</a>
-                </li>
-                <li>Email: <br> contact@saturn.com</li>
-                <li>Horario de atencion <br> L - V 9am at 6pm</li>
-              </ul>
+            <div class="col mb-3 product filter presales">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/ropa-3.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">REMERA ROSA</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Reservar!</a>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="categories footer-subsection col mb-3">
-          <div class="footer-title">
-            <h4 class="text-center">Categorias</h4>
-            <div class="footer-info d-flex justify-content-center">
-              <ul>
-                <li>Nosotros</li>
-                <li>Productos</li>
-                <li>Mi cuenta</li>
-                <li>Contacto</li>
-              </ul>
+            <div class="col mb-3 product filter presales">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/ropa-4.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">REMERA SIENA</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Reservar!</a>
+                </div>
+              </div>
             </div>
+            <div class="col mb-3 product filter presales">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/ropa-5.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">CONJUNTO</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Reservar!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3 product filter presales">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/ropa-6.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">TOP RIVER</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Reservar!</a>
+                </div>
+              </div>
+            </div>
+            <!---- CLOTHES BESTSALLERS ---->
+            <div class="col mb-3 product filter bestsellers">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/zapatos-1.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">ZAPATOS SATURN</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Comprar!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3 product filter bestsellers">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/zapatos-2.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">ZAPATOS INFINITE</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Comprar!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3 product filter bestsellers">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/zapatos-3.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">ZAPATILLAS SPACE 1</h6>
+                  <p class="card-text">Precio: $40</p>
+                  <a href="#" class="btn btn-danger">Comprar!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3 product filter bestsellers">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/zapatos-4.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">ZAPATILLAS SPACE 3</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Comprar!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3 product filter bestsellers">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/zapatos-5.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">BOTAS LEGEND</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Comprar!</a>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-3 product filter bestsellers">
+              <div class="card">
+                <div class="img-card">
+                  <img class="card-img-top" src="imagenes/zapatos-6.jpg" alt="Card image cap">
+                </div>
+                <div class="card-body text-center">
+                  <h6 class="card-title">BOTAS WAR</h6>
+                  <p class="card-text">Precio: $1400</p>
+                  <a href="#" class="btn btn-danger">Comprar!</a>
+                </div>
+              </div>
+            </div>
+           
+    
           </div>
         </div>
       </div>
-    </div>
-    <div class="subfooter">
-      <span>© 2021 SATURN STYLE - All rights reserved</span>
-      <div class="redes-sociales">
-        <a id="facebook" href="" target="_blank"><i
-            class="fab fa-facebook-square"></i></a>
-        <a id="instagram" href="" target="_blank"><i
-            class="fab fa-instagram-square"></i></a>
-      </div>
-    </div>
-  </footer>
 
+<!---------------------FOOTER----------------------->
+<footer>
+  <div class="container-fluid d-flex justify-content-around">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-5">
+      <div class="footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Metodos de Pago</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <div class="creditcards">
+              <img src="./imagenes/img-footer/creditcards.png" alt="creditcards">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Servicio al cliente</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <ul>
+              <li>Garantias</li>
+              <li>Terminos y condiciones</li>
+              <li>Privacidad</li>
+              <li>Politicas de cambio</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Contactanos</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <ul>
+              <li>Telefono oficial:<br><a href="" target="_blank">0800 xxx-xxx</a>
+              </li>
+              <li>Email: <br> contact@saturn.com</li>
+              <li>Horario de atencion <br> L - V 9am a 6pm</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="categories footer-subsection col mb-3">
+        <div class="footer-title">
+          <h4 class="text-center">Categorias</h4>
+          <div class="footer-info d-flex justify-content-center">
+            <ul>
+              <li>Nosotros</li>
+              <li>Productos</li>
+              <li>Mi cuenta</li>
+              <li>Contacto</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="subfooter">
+    <span>© 2021 SATURN STYLE - All rights reserved</span>
+    <div class="redes-sociales">
+      <a id="facebook" href="" target="_blank"><i
+          class="fab fa-facebook-square"></i></a>
+      <a id="instagram" href="" target="_blank"><i
+          class="fab fa-instagram-square"></i></a>
+    </div>
+  </div>
+</footer>
+ <!--Bootstrap-->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     </body> 
 <html>
-
-
-<!--Bootstrap-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-crossorigin="anonymous"></script>

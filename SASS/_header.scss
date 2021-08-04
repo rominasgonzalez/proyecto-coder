@@ -1,6 +1,6 @@
 /* header */
 $cool-black: #000;
-$padding-size: 40px;
+$padding-size: 50px;
 
 
 @mixin header{
@@ -19,7 +19,7 @@ header .logotipo {
 	font-family: 'Open Sans', cursive;
 	font-weight: normal;
 	color: var(--fondo);
-	font-size: 40px;
+	font-size: 60px;
 }
 
 .header.nav a {
